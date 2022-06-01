@@ -4,6 +4,7 @@
  position: sticky;
  top: 0;
  
+ 
 }
 
 #nav-font{
@@ -134,4 +135,12 @@
     color: #B4FF9F;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
+}
+
+.footer_text{
+    font-family: 'Inter', sans-serif;
+}
+
+.profile{
+    border-radius: 10rem;
 }
