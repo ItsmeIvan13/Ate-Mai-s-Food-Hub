@@ -1,0 +1,137 @@
+#nav-bg {
+ background-color: #E9EFC0;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ 
+}
+
+#nav-font{
+    position: relative;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    padding: 0 10px;
+    
+    
+}
+
+#nav-font:after{
+    content: "";
+    position: absolute;
+    background-color: #14C38E;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+#nav-font:hover{
+    color: #4E944F;
+}
+
+#nav-font:hover::after{
+    width: 100%;
+}
+
+.food_hover{
+    color: white;
+    transition: transform .2s;
+}
+
+.food_hover:hover{
+    transform: scale(1.5);
+}
+
+#section_first{
+    background-color: #B4E197;
+}
+
+#foodie_bg{
+    width: 1000px;
+}
+
+#svgs{
+    width: 250px;
+}
+
+#svg{
+    width: 176px;
+}
+
+#bg_color_order{
+    position: relative;
+}
+
+#btn_menu{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.4;
+}
+
+.carousel-lg{
+    margin-bottom: 180px;
+}
+
+
+
+
+
+.carousel-caption{
+  margin-bottom: 10px;
+}
+
+.carousel-lg h1{
+    font-size: 80px;
+    color: #B4FF9F;
+    font-family: 'Rubik Mono One', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+
+}
+
+#btn_carousel_order{
+    color: white;
+    text-decoration: none;
+}
+
+#footer{
+    background-color: #4B8673;
+    margin-bottom: 0;
+}
+
+#footer{
+    color: #fff;
+}
+
+.acc_hover:hover{
+  transform: scale(1.5);
+  
+}
+
+#home{
+    font-family: 'Bebas Neue', cursive;
+    color:#4E944F;
+   
+}
+#h1_sm{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #B4FF9F;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
